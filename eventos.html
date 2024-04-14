@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Imagenes/LOGO.png"></a>
+           
+            <div class="nav-links" id="NavLinks">
+                <i class="fa fa-times" onclick="esconder()"></i> <!--Ícono para ocultar el menú-->
+                <ul>
+                    <li><a id="Ini" href="index.html">INICIO</a></li>
+                    <li><a id="Event" href="eventos.html">EVENTOS</a></li>
+                    <li><a id="Prt" href="">FOTOS</a></li>
+                    <li><a id="Cntct" href="">CONTACTO</a></li>
+                    <li><a href="/favorites.html"></a></li>
+                    <li><a href="favorites.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg> FAVORITOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="mostrar()"></i> <!--Ícono del menú-->
+        </nav>
+        <div>
+            <h1 class="Titulos_Paginas_NoPrincipales">Eventos</h1>
+        </div>
+    </section>
+
+    <section class="cuerpo" id="Seccion1">
+        <h1 class="Titulos-secundarios">Todos los Eventos</h1>
+
+
+        <div id="contenedor-eventos" class="contenedor-eventos">
+            <!--Se rellena desde js con el objeto eventos-->
+        </div>
+    </section>
+    <script src="java/nuevoMain.js"></script>
+</body>
+</html>
