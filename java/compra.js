@@ -6,6 +6,9 @@ const seccion_Evento = document.querySelector("#evento_Compra");
 const botones_Compra = document.querySelector("#botones_Compra");
 const botones_Compra_abajo = document.querySelector("#boton_Comprar_abajo");
 const contenedor = document.querySelector("#contenedor");
+const boton_Compra_Final = document.querySelector("#Compra_Final");
+const mensaje = document.querySelector("#mensaje_Compra");
+const pagina = document.querySelector("#pagina_Detalle_Evento");
 
 function cargar_Evento(){
     if(evento_mostrado && evento_mostrado.length > 0){
@@ -43,6 +46,20 @@ function cargar_Evento(){
         seccion_Evento.append(div);
             
         });
+    } else if(evento_mostrado.length == 0){
+        seccion_Evento.innerHTML = '';
+    
+        evento_mostrado.forEach(evento => {
+            const div = document.createElement("div");
+            div.classList.add("Detalles");
+            div.innerHTML = `
+             
+    <h1 class="Nombre_evento">Vuelve a la página de Eventos</h1>
+
+            `
+        seccion_Evento.append(div);
+            
+        });
     }
 
     cargar_Compra_Evento();
@@ -52,7 +69,7 @@ function cargar_Evento(){
 
 }
 
-cargar_Evento();
+
 
 let boton_desplegar = document.querySelectorAll(".boton_Comprar");
 
@@ -66,7 +83,6 @@ function acutualizarBotonComprar(){
 }
 
 function desplegar_Compra(){
-    console.log("ESTOYYYY")
         botones_Compra.classList.add("disabled");
         contenedor.classList.remove("disabled");
         botones_Compra_abajo.classList.remove("disabled");
@@ -89,24 +105,17 @@ function cargar_Compra_Evento(){
            <div class="Fecha_Evento_Favoritos">
                <small>Desde el</small>
                <h3>${evento.fecha}</h3>
+           </div>
+           <div class="Fecha_Evento_Favoritos">
                <small>hasta el</small>
                <h3>${evento.fecha}</h3>
            </div>
+           
            <div class="Precio_Evento_Favoritos">
                <small>Precio</small>
                <h3>$${evento.precio}</h3>
             </div>
-            <div class="Cantidad_Evento">
-                <small>Cantidad</small>
-                <h3>1</h3>
-            </div>
-           <button id="${evento.id}" class="Comprar_Mas_Evento"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
-          </svg>
-          <button id="${evento.id}" class="Comprar_Mas_Evento"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
-          </svg>
-           </button>
+
         </div>  
 
             `
@@ -115,3 +124,16 @@ function cargar_Compra_Evento(){
         });
     }
 }
+
+boton_Compra_Final.addEventListener("click", compraFinal);
+
+
+
+function compraFinal(){
+    evento_mostrado.length = 0;
+    localStorage.setItem("ver-mas-evento", JSON.stringify(evento_mostrado));
+    pagina.classList.add("disabled");
+    mensaje.classList.remove("disabled");
+}
+
+cargar_Evento();

@@ -173,7 +173,6 @@ function agregar_aVerEvento(evento){
 
         eventosFavoritos.push(verEvento);
 
-    console.log(verEvento);
     localStorage.setItem("ver-mas-evento", JSON.stringify(verEvento));
     
     setTimeout(()=>{
