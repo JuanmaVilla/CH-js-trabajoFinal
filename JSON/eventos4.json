@@ -1,0 +1,66 @@
+{
+    "eventos": [
+        {
+            "id":"Festival_01",
+            "titulo":"LollaPalooza 2024",
+            "imagen":"./Imagenes/Evento1.jpeg",
+            "categoria": {
+                "nombre": "Recitales",
+                "id": "Festival"
+            },
+            "fecha": "15/03/2024",
+            "descripción": "Lollapalooza, la máxima fiesta musical que te hace vibrar con cada nota. Sumérgete en un ambiente de energía pura y conéctate con personas de todo el mundo en una experiencia inolvidable.",
+            "precio": 150000
+        },
+        {
+            "id":"Festival_02",
+            "titulo":"LollaPalooza 2024",
+            "imagen":"./Imagenes/Evento1.jpeg",
+            "categoria": {
+                "nombre": "Recitales",
+                "id": "Festival"
+            },
+            "fecha": "15/03/2024",
+            "descripción": "Lollapalooza, la máxima fiesta musical que te hace vibrar con cada nota. Sumérgete en un ambiente de energía pura y conéctate con personas de todo el mundo en una experiencia inolvidable.",
+            "precio": 150000
+        },
+        {
+            "id":"Festival_03",
+            "titulo":"LollaPalooza 2024",
+            "imagen":"./Imagenes/Evento1.jpeg",
+            "categoria": {
+                "nombre": "Recitales",
+                "id": "Festival"
+            },
+            "fecha": "15/03/2024",
+            "descripción": "Lollapalooza, la máxima fiesta musical que te hace vibrar con cada nota. Sumérgete en un ambiente de energía pura y conéctate con personas de todo el mundo en una experiencia inolvidable.",
+            "precio": 150000
+        },
+        {
+            "id":"Festival_04",
+            "titulo":"LollaPalooza 2024",
+            "imagen":"./Imagenes/Evento1.jpeg",
+            "categoria": {
+                "nombre": "Recitales",
+                "id": "Festival"
+            },
+            "fecha": "15/03/2024",
+            "descripción": "Lollapalooza, la máxima fiesta musical que te hace vibrar con cada nota. Sumérgete en un ambiente de energía pura y conéctate con personas de todo el mundo en una experiencia inolvidable.",
+            "precio": 150000
+        },
+        {
+            "id":"Festival_05",
+            "titulo":"LollaPalooza 2024",
+            "imagen":"./Imagenes/Evento1.jpeg",
+            "categoria": {
+                "nombre": "Recitales",
+                "id": "Festival"
+            },
+            "fecha": "15/03/2024",
+            "descripción": "Lollapalooza, la máxima fiesta musical que te hace vibrar con cada nota. Sumérgete en un ambiente de energía pura y conéctate con personas de todo el mundo en una experiencia inolvidable.",
+            "precio": 150000
+        }
+    ]
+}
+    
+       
