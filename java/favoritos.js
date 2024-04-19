@@ -1,5 +1,5 @@
 const eventos_Favoritos = JSON.parse(localStorage.getItem("eventos-en-favoritos"));
-
+console.log(eventos_Favoritos);
 
 const favoritosVacio = document.querySelector("#favoritosVacio");
 const contenedorFavotitos = document.querySelector("#contenedorFavoritos");

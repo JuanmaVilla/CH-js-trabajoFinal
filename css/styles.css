@@ -25,6 +25,11 @@ h1{
     
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Imagenes/Fondo.jpg);
 }
+
+#evento_Compra{
+    text-align: justify;
+}
+
 .cuerpo{
     padding: 10%;
     width: 90%;
@@ -242,6 +247,42 @@ nav .fa{
     padding: 50px;
 }
 
+.Nombre_evento{
+    font-size: 6rem;
+    font-weight: 550;
+    padding: 1.5rem;
+}
+
+.fechas_Evento_Compra{
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.info_evento{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.precio{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.Subtitulo_paginaCompra{
+    margin: 1.5rem;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.botones_paginaCompra{
+    font-size: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+}
 
 .contenedor-eventos{
     display: grid;

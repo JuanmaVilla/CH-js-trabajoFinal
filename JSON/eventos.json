@@ -3,253 +3,143 @@
     {
       "id": 1,
       "titulo": "Lollapalooza Argentina",
-      "imagenPrincipal": "./Imagenes/Evento1.jpeg",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Festivales de Música",
-        "id": 1
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/1.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/2.svg",
       "fechaInicio": "2024-03-29",
       "fechaFin": "2024-03-31",
       "descripcion": "Lollapalooza desembarca en Argentina con un lineup épico que incluye a Foo Fighters, Kendrick Lamar, Rosalía, Doja Cat y muchos más. ¡No te lo pierdas!",
-      "precios": {
-        "entradaGeneral": 20000,
-        "VIP": 50000
-      }
+      "precios": 110000
     },
     {
       "id": 2,
       "titulo": "Festival Cosquín Rock",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Festivales de Música",
-        "id": 1
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/3.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/4.svg",
       "fechaInicio": "2024-01-11",
       "fechaFin": "2024-01-15",
       "descripcion": "El clásico festival de rock argentino vuelve con una nueva edición que promete shows inolvidables. Indio Solari, Babasónicos, Las Pelotas y Fito Páez son algunos de los artistas que estarán presentes.",
-      "precios": {
-        "entradaGeneral": 5000,
-        "abono": 15000
-      }
+      "precios": 45000
     },
     {
       "id": 3,
       "titulo": "BA BA Fest",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Festivales de Música Electrónica",
-        "id": 2
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/5.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/6.svg",
       "fechaInicio": "2024-02-17",
       "fechaFin": "2024-02-18",
       "descripcion": "El festival de música electrónica más grande de Sudamérica se celebra en Buenos Aires con un lineup internacional de lujo. Tiësto, Martin Garrix, Armin van Buuren y Alesso son algunos de los DJs que estarán presentes.",
-      "precios": {
-        "entradaGeneral": 10000,
-        "VIP": 25000
-      }
+      "precios":25000
     },
     {
       "id": 4,
       "titulo": "Buenos Aires Tango Festival & World Cup",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Espectáculos de Tango",
-        "id": 3
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/7.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/8.svg",
       "fechaInicio": "2024-08-28",
       "fechaFin": "2024-09-09",
       "descripcion": "El festival de tango más importante del mundo se celebra en Buenos Aires con shows de danza, milongas y clases para todos los niveles. ¡Una experiencia imperdible para los amantes del tango!",
-      "precios": {
-        "entradaGeneral": 2000,
-        "Pase VIP": 10000
-      }
+      "precios":40000
     },
     {
       "id": 5,
       "titulo": "Mar del Plata Film Festival",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Festivales de Cine",
-        "id": 4
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/9.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/10.svg",
       "fechaInicio": "2024-11-08",
       "fechaFin": "2024-11-17",
       "descripcion": "El festival de cine más importante de Argentina se celebra en Mar del Plata con una selección de películas nacionales e internacionales. ¡Una oportunidad única para ver lo mejor del cine!",
-      "precios": {
-        "entradaIndividual": 1500,
-        "abono": 5000
-      }
+      "precios": 20000
     },
     {
       "id": 6,
       "titulo": "Snow Polo & Chandon",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Deportes",
-        "id": 6
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/11.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/12.svg",
       "fechaInicio": "2024-01-12",
       "fechaFin": "2024-01-14",
       "descripcion": "",
-      "precios": {
-        "entradaGeneral": 1000,
-        "VIP": 5000
-      }
+      "precios":15000
     },
     {
       "id": 7,
       "titulo": "Primavera Sound Buenos Aires",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Festivales de Música",
-        "id": 1
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/13.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/14.svg",
       "fechaInicio": "2024-11-15",
       "fechaFin": "2024-11-17",
       "descripcion": "El festival Primavera Sound llega a Buenos Aires con un lineup imperdible que incluye a Arctic Monkeys, Dua Lipa, The Strokes y muchos más. ¡No te lo pierdas!",
-      "precios": {
-        "entradaGeneral": 25000,
-        "VIP": 60000
-      }
+      "precios": 70000
     },
     {
       "id": 8,
       "titulo": "ArteBA",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Ferias de Arte",
-        "id": 5
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/15.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/16.svg",
       "fechaInicio": "2024-09-27",
       "fechaFin": "2024-10-01",
       "descripcion": "La feria de arte más importante de Latinoamérica se celebra en Buenos Aires con la participación de galerías de todo el continente. ¡Una oportunidad única para ver y comprar obras de arte de los mejores artistas!",
-      "precios": {
-        "entradaGeneral": 3000,
-        "tarifaReducida": 1500
-      }
+      "precios":  8000
     },
     {
       "id": 9,
       "titulo": "Festival BUE",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Festivales de Música",
-        "id": 1
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/17.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/18.svg",
       "fechaInicio": "2024-10-05",
       "fechaFin": "2024-10-07",
       "descripcion": "Un festival de música independiente que se celebra en Buenos Aires con un lineup diverso que incluye artistas nacionales e internacionales. ¡No te pierdas la oportunidad de descubrir nuevos talentos!",
-      "precios": {
-        "entradaGeneral": 3000,
-        "abono": 8000
-      },
-      "ubicacion": {
-        "ciudad": "Buenos Aires",
-        "pais": "Argentina"
-      }
+      "precios":40000
     },
     {
       "id": 10,
       "titulo": "BA Photo",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Ferias de Arte",
-        "id": 5
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/19.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/20.svg",
       "fechaInicio": "2024-09-20",
       "fechaFin": "2024-09-23",
       "descripcion": "La feria de fotografía más importante de Latinoamérica se celebra en Buenos Aires con la participación de fotógrafos de todo el continente. ¡Una oportunidad única para ver y comprar obras de los mejores fotógrafos!",
-      "precios": {
-        "entradaGeneral": 2000,
-        "tarifaReducida": 1000
-      },
-      "ubicacion": {
-        "ciudad": "Buenos Aires",
-        "pais": "Argentina"
-      }
+      "precios": 7000
+   
     },
     {
       "id": 11,
       "titulo": "Buenos Aires Book Fair",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Ferias del Libro",
-        "id": 7
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/21.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/22.svg",
       "fechaInicio": "2024-04-25",
       "fechaFin": "2024-05-13",
       "descripcion": "La feria del libro más grande de Argentina se celebra en Buenos Aires con la participación de autores, editoriales y librerías de todo el mundo. ¡Un paraíso para los amantes de la lectura!",
-      "precios": {
-        "entradaGeneral": 300,
-        "tarifaReducida": 150
-      },
-      "ubicacion": {
-        "ciudad": "Buenos Aires",
-        "pais": "Argentina"
-      }
+      "precios": 7000
     },
     {
       "id": 12,
       "titulo": "Teatro Colón: Temporada 2024",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Espectáculos de Ópera y Ballet",
-        "id": 8
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/23.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/24.svg",
       "fechaInicio": "2024-03-01",
       "fechaFin": "2024-12-31",
       "descripcion": "El Teatro Colón ofrece una amplia programación de ópera, ballet y conciertos durante todo el año. ¡Una oportunidad única para disfrutar de la cultura en uno de los teatros más importantes del mundo!",
-      "precios": {
-        "varían según la obra y el sector":0
-      },
-      "ubicacion": {
-        "ciudad": "Buenos Aires",
-        "pais": "Argentina"
-      }
+      "precios":50000
     },
     {
       "id": 13,
       "titulo": "Tango Porteño: Shows de Tango",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Espectáculos de Tango",
-        "id": 3
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/25.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/26.svg",
       "fechaInicio": "2024-01-01",
       "fechaFin": "2024-12-31",
       "descripcion": "Disfruta de un show de tango tradicional en Buenos Aires, con cena y baile en vivo. ¡Una experiencia imperdible para conocer la cultura argentina!",
-      "precios": {
-        "varían según el show y el local": 0
-      }
+      "precios":5000
     },
     {
       "id": 14,
       "titulo": "Caminito: Feria de Artesanías",
-      "imagenPrincipal": "",
-      "imagenSecundaria": "",
-      "categoria": {
-        "nombre": "Ferias de Artesanías",
-        "id": 9
-      },
+      "imagenPrincipal": "./Imagenes/Fotos_Eventos/27.svg",
+      "imagenSecundaria": "./Imagenes/Fotos_Eventos/28.svg",
       "fechaInicio": "2024-01-01",
       "fechaFin": "2024-12-31",
       "descripcion": "Recorre la colorida feria de Caminito en La Boca y encuentra artesanías, souvenirs y obras de arte únicas. ¡Un paseo ideal para conocer la cultura local!",
-      "precios": {
-        "gratuito": 0
-      }
+      "precios": 0
     }
   ]
       
