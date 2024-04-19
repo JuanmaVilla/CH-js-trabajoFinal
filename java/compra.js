@@ -46,7 +46,7 @@ function cargar_Evento(){
         seccion_Evento.append(div);
             
         });
-    } else if(evento_mostrado.length == 0){
+    } else if(evento_mostrado.length ==0){
         seccion_Evento.innerHTML = '';
     
         evento_mostrado.forEach(evento => {
@@ -69,7 +69,7 @@ function cargar_Evento(){
 
 }
 
-
+cargar_Evento();
 
 let boton_desplegar = document.querySelectorAll(".boton_Comprar");
 
@@ -135,5 +135,3 @@ function compraFinal(){
     pagina.classList.add("disabled");
     mensaje.classList.remove("disabled");
 }
-
-cargar_Evento();
