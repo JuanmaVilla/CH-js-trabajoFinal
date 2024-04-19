@@ -45,43 +45,22 @@
     </section>
 
 
-        <div class="botones_paginaCompra disabled" id="botones_Compra">
+        <div class="botones_paginaCompra" id="botones_Compra">
             <button type="button" class="btn btn-outline-dark boton_Evento boton_AgregarFavoritos" id="">Añadir a favoritos</button>
             <button class="btn btn-outline-dark boton_Comprar" id="">Comprar</button>
          </div>
 
 
-    <section>
-        <div class="Evento_Fav">
-            <img class="Imagen_Evento_Favoritos" src="Imagenes/Evento1.jpeg" alt="${evento.titulo}">
-            <div class="Titulo_Evento_Favoritos">
-               <small>Titulo</small>
-               <h3>${evento.titulo}</h3>
-           </div>
-           <div class="Fecha_Evento_Favoritos">
-               <small>Desde el</small>
-               <h3>${evento.fecha}</h3>
-               <small>hasta el</small>
-               <h3>12/12/12</h3>
-           </div>
-           <div class="Precio_Evento_Favoritos">
-               <small>Precio</small>
-               <h3>$${evento.precio}</h3>
-            </div>
-            <div class="Cantidad_Evento">
-                <small>Cantidad</small>
-                <h3>1</h3>
-            </div>
-           <button id="${evento.id}" class="Comprar_Mas_Evento"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
-          </svg>
-          <button id="${evento.id}" class="Comprar_Mas_Evento"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
-          </svg>
-           </button>
-        </div>
 
-        <div class="botones_paginaCompra">
+
+
+    <section>
+    <div class="disabled" id="contenedor">
+        <!--En esta parate va lo de js-->
+    </div>
+        
+        
+        <div class="botones_paginaCompra disabled" id="boton_Comprar_abajo">
             <button type="button" class="btn btn-outline-dark boton_Evento boton_AgregarFavoritos" id="">Añadir a favoritos</button>
             <button class="btn btn-outline-dark boton_Comprar" id="">Comprar</button>
 
