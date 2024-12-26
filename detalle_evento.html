@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/estilos2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
+
 <body>
     <section class="header">
         <nav>
@@ -22,8 +24,8 @@
                 <ul>
                     <li><a id="Ini" href="index.html">INICIO</a></li>
                     <li><a id="Event" href="eventos.html">EVENTOS</a></li>
-                    <li><a id="Prt" href="">FOTOS</a></li>
-                    <li><a id="Cntct" href="">CONTACTO</a></li>
+                    <li><a id="Prt" href="fotos.html">FOTOS</a></li>
+                    <li><a id="Cntct" href="contacto.html">CONTACTO</a></li>
                     <li><a href="/favorites.html"></a></li>
                     <li><a href="favorites.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
@@ -46,10 +48,10 @@
     </section>
 
 
-        <div class="botones_paginaCompra" id="botones_Compra">
-            <button type="button" class="btn btn-outline-dark boton_Evento boton_AgregarFavoritos" id="">Añadir a favoritos</button>
-            <button class="btn btn-outline-dark boton_Comprar" id="">Comprar</button>
-         </div>
+    <div class="botones_paginaCompra" id="botones_Compra">
+        <button type="button" class="boton_AgregarFavoritos" id="">❤ Añadir a favoritos</button>
+        <button class="boton_Comprar" id="">Comprar</button>
+    </div>
 
 
 
@@ -61,15 +63,21 @@
     </div>
         
         
-        <div class="botones_paginaCompra disabled" id="boton_Comprar_abajo">
-            <button class="btn btn-outline-dark boton_Comprar" id="Compra_Final">Comprar</button>
-        </div>
+    <!--<div class="botones_paginaCompra disabled" id="boton_Comprar_abajo">
+        <button class="btn btn-outline-dark boton_Comprar" id="Compra_Final">Comprar</button>
+    </div>-->
+    <div>
+        <br>
+        <br>
+    </div>
     </section>
 </div>
 
     <div class="disabled" id="mensaje_Compra">
         <h2 class="Subtitulo_paginaCompra">Gracias por tu compra! :)</h2>
     </div>
-    <script src="java/compra.js"></script>
+    <script src="java/detalles_evento.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 </html>

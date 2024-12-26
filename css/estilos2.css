@@ -247,36 +247,13 @@ nav .fa{
     padding: 50px;
 }
 
-.Nombre_evento{
-    font-size: 6rem;
-    font-weight: 550;
-    padding: 1.5rem;
-}
 
-.fechas_Evento_Compra{
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-    font-weight: 300;
-}
 
-.info_evento{
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    text-align: center;
-}
 
-.precio{
-    padding: 0.5rem;
-    font-size: 1.5rem;
-}
 
-.Subtitulo_paginaCompra{
-    margin: 1.5rem;
-    margin-top: 3rem;
-    font-size: 3rem;
-    font-weight: 500;
-}
+
+
+
 
 .botones_paginaCompra{
     font-size: 2rem;
@@ -294,29 +271,133 @@ nav .fa{
     max-width: 100%;
 }
 
-.Imagen_Evento{
-    max-width: 100%;
-    border-radius: 7%;
+
+.Detalles_Compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.Detalles_Evento{
-    background-color: #eaeaea;
-    color: rgb(0, 22, 30);
-    padding: 0.5em;
-    border-radius: 1.5rem;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    margin-top: -2rem;
-    position: relative;
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 400px;
+    background: white;
+}
+
+.card-horizontal {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-horizontal img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.card-body-horizontal {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 10px;
+    padding: 15px;
 }
 
-.Titulo_Evento{
-    font-size: 2rem;
-    font-weight: 500;
+.input-boletos {
+    width: 60px;
+    padding: 5px;
+    font-size: 1em;
+    margin-top: 5px;
 }
+
+.detalle-compra {
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.detalle-compra h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.detalle-compra p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
 
 .Descripcion_Evento{
     font-size: medium;
@@ -325,9 +406,94 @@ nav .fa{
     padding: 0.75rem;
 }
 
-.Fecha_Evento{
-    font-weight: lighter;
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
+
+/* Estilos principales para la sección del evento */
+.Detalles {
+    max-width: 95%;
+    margin: 5px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Nombre_evento {
+    text-align: center;
+    font-size: 2rem;
+    color: #007BFF;
+}
+
+.fechas_Evento_Compra {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.Fecha_desde, 
+.Fecha_hasta {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Imágenes del evento */
+.Imagen_Evento {
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.contenido_Evento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Subtitulo_paginaCompra {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #007BFF;
+}
+
+.info_evento {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Estilo de la sección de precios */
+.Precios {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.precio1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Estilo del mensaje cuando no hay eventos */
+.evento_vacio {
+    text-align: center;
+    padding: 20px;
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+}
+
 
 /**FAVORITOS **/ 
 
@@ -354,6 +520,7 @@ nav .fa{
 .Evento_Fav{
     display: flex;
     width: 100%;
+    margin-bottom: 1.5rem;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(238, 238, 238, 0.933);
@@ -423,47 +590,64 @@ nav .fa{
     display: none;
 }
 
-.Titulo_Con_Favorito {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Centra el título */
-    gap: 10px;
-}
-
-.Titulo_Evento {
-    margin: 0;
-}
-
-.icono-favorito {
-    font-size: 1.2rem;
-    color: gray;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.icono-favorito.favorito {
-    color: red;
-}
-
-.boton_Evento,
-.boton_Comprar {
-    margin-top: 10px;
-    width: 100%;
-}
-
-.boton_Comprar {
-    background-color: #28a745;
+.boton_AgregarFavoritos {
+    background-color: #ff5757; 
     color: white;
     border: none;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1rem;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px; 
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.boton_AgregarFavoritos:hover {
+    background-color: #ff3030; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de "Comprar" */
+.boton_Comprar {
+    background-color: #093aac; 
+    color: white;
+    border: none;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .boton_Comprar:hover {
-    background-color: #218838;
+    background-color: #093aac; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Estilo general para centrar botones */
+.botones_paginaCompra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
 
+/* Diseño responsivo para botones */
+@media (max-width: 768px) {
+    .boton_AgregarFavoritos, .boton_Comprar {
+        width: 100%; /* Botones ocupan todo el ancho */
+        font-size: 15px;
+    }
+
+    .botones_paginaCompra {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

@@ -33,18 +33,44 @@
             <i class="fa fa-bars" onclick="mostrar()"></i> <!--Ícono del menú-->
         </nav>
         <div>
-            <h1 class="Titulos_Paginas_NoPrincipales">Eventos</h1>
+            <h1 class="Titulos_Paginas_NoPrincipales">Contacto</h1>
         </div>
     </section>
 
-    <section class="cuerpo" id="Seccion1">
-        <h1 class="Titulos-secundarios">Todos los Eventos</h1>
-
-
-        <div id="contenedor-eventos" class="contenedor-eventos">
-            <!--Se rellena desde js con el objeto eventos-->
+    <section class="contacto bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-primary mb-4">Ponte en contacto con nosotros</h2>
+                    <p>En Star Productions, queremos escucharte. Si tienes preguntas, comentarios o necesitas asistencia, no dudes en contactarnos a través del formulario.</p>
+                    <p><strong>Horario de atención:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</p>
+                    <div class="info-contacto">
+                        <p><i class="fa fa-map-marker text-primary"></i> Dirección: Av. Las Estrellas 123, Ciudad Estelar</p>
+                        <p><i class="fa fa-phone text-primary"></i> Teléfono: +1 (123) 456-7890</p>
+                        <p><i class="fa fa-envelope text-primary"></i> Email: contacto@starproductions.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre completo">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+
     <footer class="bg-dark text-white text-center py-4">
         <p>&copy; 2024 Star Productions. Todos los derechos reservados.</p>
         <div class="social-icons">
@@ -54,6 +80,4 @@
             <a href="#" class="text-white"><i class="fa fa-youtube"></i></a>
         </div>
     </footer>
-    <script src="java/main.js"></script>
-</body>
 </html>
