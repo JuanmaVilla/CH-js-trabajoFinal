@@ -75,7 +75,6 @@ Para ejecutar este proyecto correctamente, es necesario contar con las siguiente
 
 - Botones minimalistas y atractivos para mejorar la exper[iencia de usuario.](https://fonts.google.com/)
 - Uso de la tipografía [Google Fonts](https://fonts.google.com/)[.](https://fonts.google.com/)
-- [Dis](https://fonts.google.com/)eño responsivo para dispositivos móviles.
 
 ---
 
