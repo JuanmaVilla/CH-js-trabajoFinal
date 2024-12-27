@@ -44,13 +44,13 @@ Para ejecutar este proyecto correctamente, es necesario contar con las siguiente
 - **`index.html`**: Página principal del proyecto.
 - **`eventos.html`**: Página de exploración de eventos.
 - **`favorites.html`**: Página para ver los eventos marcados como favoritos.
-- fotos.html: Página para explorar fotografías de eventos. 
-- contacto.html: Página para ponerte en contacto.
+- **`fotos.html`**: Página para explorar fotografías de eventos. 
+- **`contacto.html`**: Página para ponerte en contacto.
 
 ### Directorios:
 
-- **`css/`**: Contiene los archivos de estilos, como `estilos2.css`.
-- **`java/`**: Contiene los archivos JavaScript necesarios, como `compra4.js`.
+- **`css/`**: Contiene los archivos de estilos.
+- **`java/`**: Contiene los archivos JavaScript necesarios.
 - **`imagenes/`**: Carpeta para todas las imágenes utilizadas en el proyecto.
 
 ---
